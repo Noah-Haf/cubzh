@@ -44,8 +44,7 @@ extern "C" {
 #define EVENT_TYPE_SERVER_LOG_INFO 2
 #define EVENT_TYPE_SERVER_LOG_WARNING 3
 #define EVENT_TYPE_SERVER_LOG_ERROR 4
-#define EVENT_TYPE_FROM_SCRIPT_WITH_DEBUG                                                          \
-    5 // sent as EVENT_TYPE_FROM_SCRIPT, with attached debug metadata
+#define EVENT_TYPE_FROM_SCRIPT_WITH_DEBUG 5 // sent as EVENT_TYPE_FROM_SCRIPT, with attached debug metadata
 
 // UNDO MAXIMUM ACTIONS
 #define NB_UNDOABLE_ACTIONS 20
